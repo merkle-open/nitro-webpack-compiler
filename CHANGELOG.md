@@ -1,6 +1,10 @@
 Change History
 ==============
 
+v0.0.4
+------
+* Fix peer dependencies
+
 v0.0.3
 ------
 * Fix npm link issues
