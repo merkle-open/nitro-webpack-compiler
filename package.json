@@ -1,14 +1,13 @@
 {
   "name": "@namics/nitro-webpack-compiler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This plugin integrates webpack into nitro",
   "main": "index.js",
   "files": [
     "index.js",
     "lib"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/namics/nitro-webpack-compiler"
@@ -28,6 +27,7 @@
     "express": "^4.14.0",
     "globule": "^1.0.0",
     "ip": "^1.1.3",
+    "lodash": "^4.13.1",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.12.0",
     "webpack-validator": "^2.2.2"
