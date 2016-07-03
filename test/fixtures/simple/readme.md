@@ -1,0 +1,1 @@
+This fixture uses relative paths to test that a valid webpack context is set

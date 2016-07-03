@@ -1,13 +1,19 @@
 {
   "name": "@namics/nitro-webpack-compiler",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This plugin integrates webpack into nitro",
   "main": "index.js",
   "files": [
     "index.js",
     "lib"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "ava -v",
+    "posttest": "npm-run-all posttest:*",
+    "posttest:lint": "eslint .",
+    "posttest:coverage": "nyc ava",
+    "posttest:coverage-report": "nyc report --reporter=html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/namics/nitro-webpack-compiler"
@@ -43,7 +49,6 @@
     "denodeify": "^1.2.1",
     "eslint": "^2.13.1",
     "eslint-plugin-import": "^1.10.0",
-    "ncp": "^2.0.0",
     "npm-run-all": "^2.3.0",
     "nyc": "^6.6.1"
   }

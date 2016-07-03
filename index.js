@@ -1,8 +1,8 @@
 'use strict';
-const development = require('./lib/development.js');
-const production = require('./lib/production.js');
+const Development = require('./lib/development.js');
+const Production = require('./lib/production.js');
 
 module.exports = {
-	development,
-	production
+	Development,
+	Production
 };

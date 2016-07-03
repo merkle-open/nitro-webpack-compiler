@@ -1,0 +1,1 @@
+This fixture requires itself by specifying the package name
